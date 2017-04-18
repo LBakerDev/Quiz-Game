@@ -7,19 +7,79 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type = "text/css" href="assets/quizGame.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     </head>
     <body>
         <div id = "container">
-        <h1>QuizIT</h1>
-        <button id = "btn">Click to begin</button>
-        <h3>What Actor turn down the role of Neo in the Matrix?</h3>
-            <ul>
-                <li>Will Smith</li>
-                <li>Leonardo Dicaprio</li>
-                <li>Christian Bale</li>
-                <li>Samuel L. Jackson</li>
-            </ul>
+            <h1>QuizIT</h1>
+                <button id = "start">Begin</button>
+            
+            <form class = "formBody" id="q1" data-question="1">
+        
+                <h3>1. What Actor turned down the role of Neo in the Matrix?</h3>
+                <ul>
+                    <li><input name="q1" type="radio" value="a" />Will Smith</li>
+                    <li><input name="q1" type="radio" value="b" />Leonardo Dicaprio</li>
+                    <li><input name="q1" type="radio" value="c" />Christian Bale</li>
+                    <li><input name="q1" type="radio" value="d" />Tom Cruise</li>
+                </ul>
 
+                <button id = "submit">Submit</button>
+            </form>
+
+            <form class = "formBody" id="q2" data-question="2">
+
+                <h3>2. What was the first phone to have a front facing camera?</h3>
+                <ul>
+                    <li><input name="q2" type="radio" value="a" />HTC Dream</li>
+                    <li><input name="q2" type="radio" value="b" />Iphone 3GS</li>
+                    <li><input name="q2" type="radio" value="c" />Iphone 4</li>
+                    <li><input name="q2" type="radio" value="d" />Samsung Galaxy S</li>
+                    </ul>
+
+                <button id ="submit">Submit</button>
+            </form>
+
+            <form class = "formBody" id ="q3" data-question="3">
+        
+                <h3>3. Who directed Pulp Fiction?</h3>
+                <ul>
+                    <li><input name="q3" type="radio" value="a" />Steven Spielberg</li>
+                    <li><input name="q3" type="radio" value="b" />Ridley Scott</li>
+                    <li><input name="q3" type="radio" value="c" />Quentin Tarantino</li>
+                    <li><input name="q3" type="radio" value="d" />Martin Scorcese</li>
+                </ul>
+
+                <button id = "submit">Submit</button>
+            </form>
+
+            <form class = "formBody" id ="q4" data-question="4">
+        
+                <h3>4. Which news organization is the most racist?</h3>
+                <ul>
+                    <li><input name="q4" type="radio" value="a" />CNN</li>
+                    <li><input name="q4" type="radio" value="b" />MSNBC</li>
+                    <li><input name="q4" type="radio" value="c" />Fox News</li>
+                    <li><input name="q4" type="radio" value="d" />ABC News</li>
+                    <li><input name="q4" type="radio" value="e" />All of the Above...</li>
+                </ul>
+
+                <button id = "submit">Submit</button>
+            </form>
+
+            <form class = "formBody" id ="q5" data-question="5">
+        
+                <h3>5. Which car brand was is manufactured in Germany?</h3>
+                <ul>
+                    <li><input name="q5" type="radio" value="a" />Infiniti</li>
+                    <li><input name="q5" type="radio" value="b" />Lexus</li>
+                    <li><input name="q5" type="radio" value="c" />Ford</li>
+                    <li><input name="q5" type="radio" value="d" />Audi</li>
+                    <li><input name="q5" type="radio" value="e" />None of the above</li>
+                </ul>
+
+                <button id = "submit">Submit</button>
+            </form>
         </div>  
 
     </body>
